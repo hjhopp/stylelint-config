@@ -13,25 +13,25 @@ module.exports = {
             // Property groups, inspired by https://pyx.space/post/keys-to-maintainable-css-order
             [
                 {
-                    groupName : "modular-css composition",
+                    groupName       : "modular-css composition",
                     emptyLineBefore : "never",
-                    properties : [
+                    properties      : [
                         "composes",
                     ],
                 },
 
                 {
-                    groupName : "stacking",
+                    groupName       : "stacking",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "z-index",
                     ],
                 },
 
                 {
-                    groupName : "layout",
+                    groupName       : "layout",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "grid-area",
                         "order",
                         "position",
@@ -44,9 +44,9 @@ module.exports = {
                 },
 
                 {
-                    groupName : "box model",
+                    groupName       : "box model",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "display",
                         "height",
                         "max-height",
@@ -69,7 +69,7 @@ module.exports = {
                 },
 
                 {
-                    groupName : "border",
+                    groupName  : "border",
                     properties : [
                         "border",
                         "border-bottom",
@@ -106,7 +106,7 @@ module.exports = {
                 },
 
                 {
-                    groupName : "grid",
+                    groupName  : "grid",
                     properties : [
                         // Grid parent
                         "grid",
@@ -135,7 +135,7 @@ module.exports = {
                 },
 
                 {
-                    groupName : "flexbox",
+                    groupName  : "flexbox",
                     properties : [
                         // Flex parent
                         "flex-direction",
@@ -161,9 +161,9 @@ module.exports = {
                 },
 
                 {
-                    groupName : "visual",
+                    groupName       : "visual",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "background",
                         "background-attachment",
                         "background-clip",
@@ -205,9 +205,9 @@ module.exports = {
                 },
 
                 {
-                    groupName : "type",
+                    groupName       : "type",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "font",
                         "font-family",
                         "font-feature-settings",
@@ -249,9 +249,9 @@ module.exports = {
                 },
 
                 {
-                    groupName : "transforms/transitions/animations",
+                    groupName       : "transforms/transitions/animations",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "backface-visibility",
                         "clip-path",
                         "filter",
@@ -281,9 +281,9 @@ module.exports = {
                 },
 
                 {
-                    groupName : "weird stuff",
+                    groupName       : "weird stuff",
                     emptyLineBefore : "always",
-                    properties : [
+                    properties      : [
                         "cursor",
                         "pointer-events",
                         "user-select",
@@ -294,5 +294,5 @@ module.exports = {
             // Options
             { unspecified : "bottomAlphabetical" },
         ],
-    }
+    },
 };
