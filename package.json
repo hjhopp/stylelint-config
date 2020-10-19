@@ -1,6 +1,6 @@
 {
   "name": "@tivac/stylelint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "My stylelint config, alllll mine.",
   "main": "index.js",
   "author": "Patrick Cavit <npm@patcavit.com>",
