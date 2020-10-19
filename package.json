@@ -1,6 +1,6 @@
 {
   "name": "@tivac/stylelint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "My stylelint config, alllll mine.",
   "main": "index.js",
   "author": "Patrick Cavit <npm@patcavit.com>",
@@ -15,7 +15,7 @@
     "lint": "eslint . --max-warnings=0",
     "prerelease": "npm run lint",
     "release": "npm version -m \"v%s\"",
-    "postversion": "npm publish --access=public"
+    "postversion": "git push --follow-tags && npm publish --access=public"
   },
   "peerDependencies": {
     "stylelint": "^13"
