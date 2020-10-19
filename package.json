@@ -4,7 +4,19 @@
   "description": "My stylelint config, alllll mine.",
   "main": "index.js",
   "author": "Patrick Cavit <npm@patcavit.com>",
+  "repository": "tivac/stylelint-config",
+  "bugs": "https://github.com/tivac/stylelint-config/issues",
+  "devDependencies": {
+    "@tivac/eslint-config": "^2.4.0",
+    "eslint": "^7.11.0"
+  },
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --max-warnings=0",
+    "prerelease": "npm run lint",
+    "release": "npm version -m \"v%s\"",
+    "postversion": "npm publish --access=public"
+  },
   "peerDependencies": {
     "stylelint": "^13"
   }
