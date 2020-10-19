@@ -19,5 +19,9 @@
   },
   "peerDependencies": {
     "stylelint": "^13"
-  }
+  },
+  "files": [
+    "index.js",
+    "order.js"
+  ]
 }
